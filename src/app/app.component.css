@@ -1,0 +1,16 @@
+h1{
+     font-size: 3rem;
+     color: #fff;
+}
+p, h2{
+    font-size: 1rem;
+}
+
+.subtitulo{
+    font-size: 0.9rem;
+}
+
+body{
+    color: #fff;
+    background-image: url("../assets/Fondo.png");
+}
