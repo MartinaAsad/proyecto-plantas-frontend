@@ -15,16 +15,18 @@
     <div class="row justify-content-end"> <!-- Empuja el contenido hacia la derecha -->
       <div class="col-md-6"> <!-- Columna derecha (50%) con texto alineado a la derecha -->
         <h1>Portal de monitoreo</h1>
-        <h2>Iniciar sesión</h2>
-        <input type="email" class="form-control mb-3" id="mailLogin" placeholder="Email"> 
-        <input type="password" id="claveLogin" class="form-control mb-4" aria-describedby="passwordHelpBlock" placeholder="Contraseña">
+        <h2>Registrarse</h2>
+         <input type="text" class="form-control mb-4" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+        <input type="email" class="form-control mb-4" id="mailRegistro" placeholder="Email"> 
+        <input type="password" id="claveRegistro" class="form-control mb-4" aria-describedby="passwordHelpBlock" placeholder="Contraseña">
+         <input type="password" id="claveRegistro2" class="form-control mb-4" aria-describedby="passwordHelpBlock" placeholder="Repetir contraseña">
         <div class="container">
           <div class="row justify-content-md-center">
-          <p class="col-6">¿Olvidaste tu contraseña?</p>
-        <button type="button" class="col-4" id="boton-inicio-sesion">Iniciar sesión</button></div>
+          <p class="col-8">-Al menos 10 caracteres y uno especial</p>
+        <button type="button" class="col-4" id="boton-registro">Registrarse</button></div>
         </div>
         <p class="mt-3">Protegido por reCAPTCHA y sujeto a la <span id="enlace-registro">Política de Privacidad y Condiciones.</span></p>
-        <p>¿No tienes una cuenta? <a href="" id="enlace-registro" routerLink="/registro">Registrarse</a></p>
+        <p>¿Ya tienes una cuenta? <a href="" id="enlace-inicio-sesion" routerLink="">Iniciar sesion</a></p>
       </div>
     </div>
   </div>
@@ -32,3 +34,4 @@
 
 
 </html>
+

@@ -1,15 +1,20 @@
 .login{
     background-color: #FBFCFC;
-    color: #000;
+    color: #84818A;
 }
 
-#boton-inicio-sesion{
+.login h1, h2{
+    color: #000
+}
+
+.login #boton-registro{
     border-radius: 14px;
     color: #fff;
     background-color: #33A3AA;
     border: none;
 }
 
-#enlace-registro{
+#enlace-registro, #enlace-inicio-sesion{
     color: #33A3AA;
 }
+
