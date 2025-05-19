@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Proyecto Plantas</title>
 </head>
 
@@ -13,12 +16,15 @@
       <div class="col-md-6"> <!-- Columna derecha (50%) con texto alineado a la derecha -->
         <h1>Portal de monitoreo</h1>
         <h2>Iniciar sesión</h2>
-        <input type="email" class="form-control mb-2" id="mail" placeholder="Email"> {{email}}
-        <input type="password" id="inputPassword" class="form-control mb-2" aria-describedby="passwordHelpBlock" placeholder="Contraseña">
-        <p>¿Olvidaste tu contraseña?</p>
-        <button type="button" class="btn btn-primary">Iniciar sesión</button>
-        <p class="mt-3">Protegido por reCAPTCHA y sujeto a la Política de Privacidad y Condiciones.</p>
-        <p>¿No tienes una cuenta? <a href="#">Registrarse</a></p>
+        <input type="email" class="form-control mb-3" id="mailLogin" placeholder="Email"> 
+        <input type="password" id="claveLogin" class="form-control mb-4" aria-describedby="passwordHelpBlock" placeholder="Contraseña">
+        <div class="container">
+          <div class="row justify-content-md-center">
+          <p class="col-8">¿Olvidaste tu contraseña?</p>
+        <button type="button" class="col-4" id="boton-inicio-sesion">Iniciar sesión</button></div>
+        </div>
+        <p class="mt-3">Protegido por reCAPTCHA y sujeto a la <span id="enlace-registro">Política de Privacidad y Condiciones.</span></p>
+        <p>¿No tienes una cuenta? <a href="" id="enlace-registro">Registrarse</a></p>
       </div>
     </div>
   </div>
