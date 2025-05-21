@@ -4,11 +4,13 @@ import { RegistroComponent } from '../components/registro/registro.component';
 import { FormularioRegistroComponent } from '../components/formulario-registro/formulario-registro.component';
 import { InfoInicioDashboardComponent } from '../components/info-inicio-dashboard/info-inicio-dashboard.component';
 import { MenuNavegacionComponent } from '../components/menu-navegacion/menu-navegacion.component';
+import { PanelUsuarioComponent } from '../components/panel-usuario/panel-usuario.component';
 export const routes: Routes = [
     {path:'', component: LoginComponent},
     {path:'registro', component: RegistroComponent},
     {path: 'formRegistro', component: FormularioRegistroComponent},
     {path: 'alertas', component: InfoInicioDashboardComponent},
-    {path: 'menu', component: MenuNavegacionComponent}
+    {path: 'menu', component: MenuNavegacionComponent},
+    {path: 'panel', component: PanelUsuarioComponent}
 ];
 

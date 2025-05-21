@@ -1,0 +1,35 @@
+body{
+    background-color: #EBF8F9;
+     font-family:Poppins ;
+}
+
+h1, h2{
+     color: #000;
+     font-family:Poppins ;
+     font-size: 30px;
+     margin: 0;
+}
+
+p{
+    color: #000;
+    font-size: 18px;
+ margin: 0;
+}
+
+.info-complementaria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.iconos{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+
+}
+
+h2{
+    font-size: 16px;
+}
