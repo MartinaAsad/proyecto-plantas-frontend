@@ -1,0 +1,51 @@
+.fondo{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+    font-family: Poppins;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;            
+  margin-bottom: 1rem;           
+}
+h1{
+    margin: 0;
+    font-size: 16px;
+    padding-left: 25px;
+     padding-top: 25px;
+     font-weight: 700;
+
+}
+button{
+    margin: 0;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.table-spaced {
+  border-collapse: separate;
+  border-spacing: 0 12px; 
+}
+th{
+    color: #B0CAD1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+td{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#boton-inicio-sesion{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #33A3AA;
+    border: none;
+    padding: 5px 20px 5px 20px;
+}
