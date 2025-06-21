@@ -14,6 +14,7 @@ export const routes: Routes = [
     {path: 'alertas', component: InfoInicioDashboardComponent},
     {path: 'menu', component: MenuNavegacionComponent},
     {path: 'panel', component: PanelUsuarioComponent},
-    {path: 'tabla', component: TablaPlantasComponent}
+    {path: 'tabla', component: TablaPlantasComponent},
+
 ];
 
