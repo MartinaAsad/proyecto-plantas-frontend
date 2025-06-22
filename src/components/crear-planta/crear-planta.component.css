@@ -1,8 +1,31 @@
-h5{
-    padding-bottom: 1rem;
+.input-bordered {
+  border: 2px solid #1f9aa6;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  padding: 10px 14px;
+  color: #000;
 }
 
-h6{
-    color: #838B9E;
-    padding-bottom: 1.75rem;
+.input-bordered:focus {
+  box-shadow: 0 0 0 0.2rem rgba(31, 154, 166, 0.25);
+  border-color: #1f9aa6;
+}
+
+.modal-card {
+  background-color: white;
+  padding: 2rem;
+}
+
+.boton-card-planta{
+    background-color: #1f9aa6;
+    color: #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 36px;
+}
+
+.boton-card-planta:hover{
+     color: #1f9aa6;
+      background-color: #fff ;
+      border-color: #1f9aa6;
 }

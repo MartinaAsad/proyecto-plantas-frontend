@@ -1,7 +1,19 @@
-<div class="card" style="width: 14rem; height: 10rem;">
-  <div class="card-body">
-    <h5 class="card-title fs-6">Crear nueva planta</h5>
-    <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Nombre planta</h6>
-    <h6 class="card-subtitle mb-2 text-body-secondary fs-6">Pais</h6>
+<!-- Modal Background -->
+<div class="d-flex justify-content-center align-items-center vh-100 bg-dark bg-opacity-50">
+  <!-- Modal Card -->
+  <div class="modal-card bg-white rounded-4 p-4" style="width: 500px;">
+    <h4 class="mb-4 fw-semibold">Crear nueva planta</h4>
+    <label for="planta" class="form-label fw-semibold text-secondary">Nombre planta</label>
+    <input type="text" class="form-control input-bordered mb-3" placeholder="Ingrese nombre" />
+
+    <!-- País -->
+    <label for="pais" class="form-label fw-semibold text-secondary">País</label>
+    <select class="form-select input-bordered mb-4">
+      <option value="">Argentina</option>
+    </select>
+    <div class="d-flex justify-content-around">
+      <button class="boton-card-planta">Cancelar</button>
+      <button class="boton-card-planta">Crear</button>
+    </div>
   </div>
 </div>

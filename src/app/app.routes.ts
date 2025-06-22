@@ -6,6 +6,7 @@ import { InfoInicioDashboardComponent } from '../components/info-inicio-dashboar
 import { MenuNavegacionComponent } from '../components/menu-navegacion/menu-navegacion.component';
 import { PanelUsuarioComponent } from '../components/panel-usuario/panel-usuario.component';
 import { TablaPlantasComponent } from '../components/tabla-plantas/tabla-plantas.component';
+import { CrearPlantaComponent } from '../components/crear-planta/crear-planta.component';
 
 export const routes: Routes = [
     {path:'', component: LoginComponent},
@@ -15,6 +16,7 @@ export const routes: Routes = [
     {path: 'menu', component: MenuNavegacionComponent},
     {path: 'panel', component: PanelUsuarioComponent},
     {path: 'tabla', component: TablaPlantasComponent},
+    {path:'crearPlanta', component: CrearPlantaComponent}
 
 ];
 
