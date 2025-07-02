@@ -12,7 +12,7 @@ export class AuthUtils {
   // Maneja errores 401/403
   handleAuthError(error: HttpErrorResponse): Observable<never> {
     if (error.status === 401 || error.status === 403) {
-      this.router.navigate(['/login']); 
+      this.router.navigate(['/']); 
     }
     return throwError(() => error);
   }
